@@ -1,24 +1,8 @@
-# README
+With user input of a flickr profile ID, a page of that profile's photos is returned.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Practice using real world APIs.
 
-Things you may want to cover:
+-----
+Project from The Odin Project
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://www.theodinproject.com/lessons/ruby-on-rails-flickr-api
