@@ -1,8 +1,10 @@
-<h1>Enter a User ID: </h1>
-<%= form_with url: "/", method: "get" do |f| %>
-  <%= f.text_field :user_id %>
-  <%= f.submit "Search" %>
-<% end %>
+<div id="header">
+  <h1>Enter a User ID: </h1>
+  <%= form_with url: "/", method: "get" do |f| %>
+    <%= f.text_field :user_id %>
+    <%= f.submit "Search" %>
+  <% end %>
+</div>
 
 <div id="photo-collection">
   <% @photos.each do |photo_url| %>
