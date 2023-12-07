@@ -3,3 +3,9 @@
   <%= f.text_field :user_id %>
   <%= f.submit "Search" %>
 <% end %>
+
+<div id="photo-collection">
+  <% @photos.each do |photo_url| %>
+    <img src="<%= photo_url %>">
+  <% end %>
+</div>
